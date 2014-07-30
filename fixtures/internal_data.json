@@ -1,0 +1,52 @@
+[
+  {
+    "pk": 1, 
+    "model": "stats.project", 
+    "fields": {
+      "site": "alytics.ru", 
+      "title": "alytics"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "stats.project", 
+    "fields": {
+      "site": "nowmedia.ru", 
+      "title": "nowmedia"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "stats.projectdetails", 
+    "fields": {
+      "project": 1, 
+      "info1": "Test 1 Test 2", 
+      "info2": "Test 3 Test 4"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "stats.projectdetails", 
+    "fields": {
+      "project": 2, 
+      "info1": "Nowmedia Test", 
+      "info2": "Nowmedia2 Test"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "stats.data", 
+    "fields": {
+      "project": 1, 
+      "field": "alytics data"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "stats.data", 
+    "fields": {
+      "project": 2, 
+      "field": "nowmedia data"
+    }
+  }
+]
