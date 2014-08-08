@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.db import models
 from stats.models import Project, ProjectDetails, Data, Stat
 
-class ProjectDetailsInline(admin.StackedInline):
+class ProjectDetailsInline(admin.TabularInline):
 	model = ProjectDetails
-	extra = 1
+	extra = 0
 
 
 class ProjectAdmin(admin.ModelAdmin):
